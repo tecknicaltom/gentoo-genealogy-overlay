@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <repositories version="1.0">
-<repo priority="50" status="unofficial">
+<repo quality="experimental" status="unofficial">
   <name>genealogy</name>
-  <description>Gentoo overlay for Gramps and other packages related to genealogy</description>
+  <description lang="en">Gentoo overlay for Gramps and other packages related to genealogy</description>
   <homepage>https://github.com/tecknicaltom/gentoo-genealogy-overlay</homepage>
-  <owner>
+  <owner type="person">
     <email>gentoo@modtwo.com</email>
     <name>tecknicaltom</name>
   </owner>
+  <source type="git">https://github.com/tecknicaltom/gentoo-genealogy-overlay.git</source>
   <source type="git">git://github.com/tecknicaltom/gentoo-genealogy-overlay.git</source>
+  <source type="git">git@github.com:tecknicaltom/gentoo-genealogy-overlay.git</source>
   <feed>https://github.com/tecknicaltom/gentoo-genealogy-overlay/commits/master.atom</feed>
 </repo>
 <repo quality="experimental" status="unofficial">
-  <name>genealogy-development</name>
-  <description>Gentoo (development) overlay for Gramps and other packages related to genealogy</description>
+  <name>genealogy-dev</name>
+  <description lang="en">Gentoo (development) overlay for Gramps and other packages related to genealogy</description>
   <homepage>https://github.com/tecknicaltom/gentoo-genealogy-overlay</homepage>
-  <owner>
+  <owner type="person">
     <email>gentoo@modtwo.com</email>
     <name>tecknicaltom</name>
   </owner>
+  <source type="git" branch="dev">https://github.com/tecknicaltom/gentoo-genealogy-overlay.git</source>
   <source type="git" branch="dev">git://github.com/tecknicaltom/gentoo-genealogy-overlay.git</source>
+  <source type="git" branch="dev">git@github.com:tecknicaltom/gentoo-genealogy-overlay.git</source>
   <feed>https://github.com/tecknicaltom/gentoo-genealogy-overlay/commits/dev.atom</feed>
 </repo>
 </repositories>
