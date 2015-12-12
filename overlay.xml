@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repositories version="1.0">
+<repo priority="50" status="unofficial">
+  <name>genealogy</name>
+  <description>Gentoo overlay for Gramps and other packages related to genealogy</description>
+  <homepage>https://github.com/tecknicaltom/gentoo-genealogy-overlay</homepage>
+  <owner>
+    <email>gentoo@modtwo.com</email>
+    <name>tecknicaltom</name>
+  </owner>
+  <source type="git">git://github.com/tecknicaltom/gentoo-genealogy-overlay.git</source>
+  <feed>https://github.com/tecknicaltom/gentoo-genealogy-overlay/commits/master.atom</feed>
+</repo>
+</repositories>
