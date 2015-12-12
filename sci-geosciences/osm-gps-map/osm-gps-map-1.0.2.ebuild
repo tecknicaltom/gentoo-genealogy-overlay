@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sci-geosciences/osm-gps-map/osm-gps-map-0.7.3.ebuild,v 1.6 2013/05/29 16:29:05 jlec Exp $
+# $Id$
 
 EAPI=5
 
@@ -30,9 +30,9 @@ DEPEND="${RDEPEND}
 	virtual/pkgconfig"
 
 src_prepare() {
-	epatch "${FILESDIR}/${PN}-0.7.3-fix-docs-location.patch"
+	epatch "${FILESDIR}/${P}-fix-docs-location.patch"
 	eautoreconf
-	
+
 	gnome2_src_prepare
 }
 
