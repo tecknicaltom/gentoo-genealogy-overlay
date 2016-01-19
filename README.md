@@ -3,3 +3,11 @@ dev: [![Build Status](https://travis-ci.org/tecknicaltom/gentoo-genealogy-overla
 
 # gentoo-genealogy-overlay
 Gentoo overlay for Gramps and other packages related to genealogy
+
+## How to use
+
+The easiest way to use this overlay, until it is added to overlays.gentoo.org, is to do the following:
+
+```
+layman -o https://raw.githubusercontent.com/tecknicaltom/gentoo-genealogy-overlay/master/overlay.xml -f -a genealogy
+```
