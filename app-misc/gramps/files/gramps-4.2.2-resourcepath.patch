@@ -1,0 +1,12 @@
+--- setup.py.old
++++ setup.py
+@@ -263,7 +263,7 @@ class install(_install):
+             if packaging:
+                 path = resource_path
+             else:
+-                path = os.path.abspath(os.path.join(self.install_data, 'share'))
++                path = '/usr/share'
+             fp.write(path)
+ 
+         _install.run(self)
+
